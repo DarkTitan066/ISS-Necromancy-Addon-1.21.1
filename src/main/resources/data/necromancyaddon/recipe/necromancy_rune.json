@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "necromancyaddon:darkrunestone"
+    },
+    "B": {
+      "item":"minecraft:bone"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BDB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "necromancyaddon:necromancyrune"
+  }
+}
