@@ -1,4 +1,7 @@
 {
   "item.necromancyaddon.necromancyrune": "Necromancy Rune",
-  "item.necromancyaddon.darkrunestone": "Dark Runestone"
+  "item.necromancyaddon.darkrunestone": "Dark Runestone",
+
+  "creativetab.necromancyaddon.necromancy_items": "Necromancy Items",
+  "creativetab.necromancyaddon.necromancy_blocks": "Necromancy Blocks"
 }

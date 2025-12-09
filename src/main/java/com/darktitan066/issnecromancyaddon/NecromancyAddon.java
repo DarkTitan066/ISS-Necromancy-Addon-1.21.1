@@ -1,5 +1,6 @@
 package com.darktitan066.issnecromancyaddon;
 
+import com.darktitan066.issnecromancyaddon.item.ModCreativeModeTabs;
 import com.darktitan066.issnecromancyaddon.item.ModItems;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -48,6 +49,8 @@ public class NecromancyAddon {
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
