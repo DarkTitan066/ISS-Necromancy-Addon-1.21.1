@@ -1,5 +1,9 @@
 package com.darktitan066.issnecromancyaddon;
 
+import com.darktitan066.issnecromancyaddon.item.ModItems;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -43,6 +47,10 @@ public class NecromancyAddon {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        NeoForge.EVENT_BUS.register(this);
+
+        ModItems.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -55,9 +63,13 @@ public class NecromancyAddon {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.NecromancyRune);
+            event.accept(ModItems.DarkRunestone);
+        }
     }
-
+    // You can use SubscribeEvent and let the Event Bus discover methods to call
+    @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
 
     }
