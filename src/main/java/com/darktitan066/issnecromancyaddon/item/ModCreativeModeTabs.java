@@ -20,6 +20,8 @@ public class ModCreativeModeTabs {
             .displayItems((itemDisplayParameters, output) -> {
              output.accept(ModItems.NecromancyRune);
              output.accept(ModItems.DarkRunestone);
+             output.accept(ModItems.VillagerSkin);
+             output.accept(ModItems.TreatedSkin);
 
             }).build());
 
