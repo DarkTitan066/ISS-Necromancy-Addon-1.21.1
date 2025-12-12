@@ -1,25 +1,22 @@
+**ISS Necromacy Addon**
+This is my first mod so changes will happen as I get more proficent with mod creation. 
+This mod will add a new Necromancy school to Iron's Spells and Spellbooks as well as some unique features such as rituals and undead thralls.
 
-Installation information
-=======
+**Planned Features:**
+- Necromancy School with 12 starting spells
+- Ritual System
+- Path to Lichdom
+- Undead Thralls for outside of combat
+- Necromancy themed blocks
+- Deep immersive lore
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+**Planned Spells**
+- Bone Darts
+- Wall of Bones
+- Raise Deathmage
+- Necrotic Touch
+- Summon Wraith
+- Aura de Vitae Aeternae
+- Aspect of Dread
+- Call forth Dread Knights
+- Curse of Dread
